@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 	<head>
 		<title>Spring First WebApp</title>
-	</head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />	</head>
 	<body>
 		<p>Connecting with server...</p>
-		<p th:text="${name}"></p>
+		<p th:text="'User: '+ ${name}"></p>
 	</body>
 </html>
